@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Generator Veo 3 By Riki Oktopan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Prompt Generator Veo 3 By Riki Oktopan</h1>
+    <label>Deskripsi Prompt:</label>
+    <textarea id="idea" placeholder="Contoh: Cerita lucu tentang anak kos yang ngalamin kejadian absurd di kamar mandi..."></textarea>
+
+    <label>Bahasa yang Diinginkan:</label>
+    <input type="text" id="language" placeholder="Contoh: Bahasa Sunda" />
+
+    <label>Gaya Narasi:</label>
+    <input type="text" id="style" placeholder="Contoh: Sarkastik dan dramatis" />
+
+    <button onclick="generatePrompt()">🎬 Generate Prompt</button>
+    <pre id="output"></pre>
+    <button onclick="copyPrompt()">📋 Copy Prompt</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
